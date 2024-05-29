@@ -293,21 +293,33 @@ section {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
   }
-  button {
-    background-color: rgb(3, 79, 12);
-    color: white;
+  .contenedor button {
+    background-color:#aed581;
+    color:#ffffff;
     padding: 5px;
     width: 100px;
     cursor: pointer;
+    border: solid 1px #aed581;
   }
-  .btn-primary {
-    border: solid 1px hsl(136, 97%, 20%);
-    background-color: hsl(136, 97%, 30%);
+ 
+  .btn {
+    border: solid 1px #aed581;
+    background-color: #aed581;
+  }
+
+  
+  .btn:focus{
+    box-shadow: none;
+    border: solid 1px  #788e4d;
+    background-color:  #788e4d;
+    color: white;
+
+  }
+
+  .btn:hover {
+    box-shadow: none;
+    border: solid 1px  #788e4d;
+    background-color:  #788e4d;
+    color: #5d6e3b;
   }
   
-  .btn-primary:focus,
-  .btn-primary:hover {
-    box-shadow: none;
-    border: solid 1px hsl(136, 97%, 30%);
-    background-color: hsl(136, 97%, 20%);
-  }
