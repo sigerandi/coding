@@ -125,11 +125,17 @@ h2 {
     font-family: "Montserrat", sans-serif; 
     size: 19px ;
 }
-#carouselExampleControls img{
-     
-    width: 500px;
-    height: auto;
 
+.carousel-item img {
+    width: 500px;
+    
+    max-height: 800px;
+}
+
+.carousel-inner{
+    
+    width: auto;
+ height: 500px;
 }
 .caja {
     display: flex;
