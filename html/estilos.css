@@ -69,7 +69,7 @@ h1 {
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 39px;
     color: #694908;
     font-family: "Satisfy", cursive;
     font-weight: 400;
@@ -163,18 +163,35 @@ h2 {
     font-family: "Montserrat", sans-serif;
     
 }
-#contacto{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-direction: row;
-    margin: 10px 0 10px 0;
-    
 
+#contacto {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    
 }
-#contacto inframe{
+#contacto iframe{
     padding: 10px;
     margin: 10px;
+}
+
+footer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color:  #aed58176;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+
 }
 section {
     width: 400px;
